@@ -1,60 +1,6 @@
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #e6d5d5;
-  margin: 0;
-  padding: 0;
-}
-
-section {
-  padding: 100px 0;
-  text-align: center;
-}
-
-#home {
-  background-color: #f4f4f4;
-}
-
-#about {
-  background-color: #fff;
-}
-
-#projects {
-  background-color: #f4f4f4;
-}
-
-#contact {
-  background-color: #fff;
-}
-footer {
-  padding: 40px 0;
-}
-
-footer h5 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-footer p {
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-
-footer a {
-  transition: color 0.3s ease;
-}
-
-footer a:hover {
-  color: #007bff;
-}
-
-footer .text-muted {
-  font-size: 0.9rem;
-  color: #999 !important;
-}
 /* Hero Section */
 .hero-section {
-  background-image: url("https://via.placeholder.com/1920x1080"); /* Replace with a professional background */
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg"); /* Replace with a professional background */
   background-size: cover;
   background-position: center;
   height: 100vh;
