@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./About.css";
 const AboutUs = () => {
   const containerStyle = {
     display: "flex",
@@ -24,15 +24,6 @@ const AboutUs = () => {
     color: "#333",
   };
 
-  const buttonStyle = {
-    marginTop: "20px",
-    padding: "10px 20px",
-    backgroundColor: "#007bff",
-    color: "#fff",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-  };
   const bold = {
     color: "blue",
   };
@@ -40,7 +31,7 @@ const AboutUs = () => {
   return (
     <div style={containerStyle}>
       <img
-        src="https://t.pimg.jp/047/609/645/1/47609645.jpg"
+        src="https://img.freepik.com/free-vector/girl-with-laptop-table-white-background_1308-52074.jpg"
         alt="Our Team"
         style={imageStyle}
       />
@@ -49,9 +40,8 @@ const AboutUs = () => {
           {" "}
           <b style={bold}> Hello, I'm Radhika Gondaliya</b>
         </h5>
-        <br></br>
-        <br></br> Since 2021, I've been fortunate to lend my skills to a variety
-        of clients, helping them translate their visions into functional,
+        Since 2021, I've been fortunate to lend my skills to a variety of
+        clients, helping them translate their visions into functional,
         aesthetically pleasing websites.<br></br>
         <br></br>I specialize in <b>front-end development</b> , leveraging a
         stack that includes <b>JavaScript, HTML, CSS, react.js,PHP, and more</b>{" "}
@@ -73,7 +63,7 @@ const AboutUs = () => {
       </p>
 
       <a href="/Radhika resume.pdf" download="Radhika_CV.pdf">
-        <button style={buttonStyle}>Download My CV</button>
+        <button className="button">Download My CV</button>
       </a>
     </div>
   );
